@@ -34,6 +34,11 @@ This file documents the steps, configurations, and services set up on my Raspber
 
 ---
 
+## External Disk Mounting
+-The disk is automatically mounted at boot using /etc/fstab.
+
+---
+
 ## Notes
 - All services are configured to run on boot.
 - Configurations have been tested and verified.
