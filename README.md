@@ -25,7 +25,11 @@ The project focuses on learning Linux, improving IT administration skills, and b
   - Netdata for real-time system metrics  
 
 - **Web Hosting (planned)**  
-  - Nginx setup for serving websites and apps  
+  - Nginx setup for serving websites and apps
+
+- **External Disk Mounting**
+  - Configured an external USB drive for persistent data storage.
+    
 
 ---
 
