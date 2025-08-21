@@ -18,6 +18,11 @@ This file documents the steps, configurations, and services set up on my Raspber
 ## System Maintenance
 - Enabled **automatic security updates** via `unattended-upgrades`.
 - Configured system to send an **email notification** after updates (via Gmail SMTP relay).
+- Set up **journalctl log management**:
+  - Persistent logging enabled (`/var/log/journal`).
+  - Limited log size with `SystemMaxUse` in `journald.conf`.
+  - Logs rotated automatically to prevent SD card from filling up.
+  - Tested log access with `journalctl -xe` and boot logs with `journalctl -b`.
 
 ---
 
