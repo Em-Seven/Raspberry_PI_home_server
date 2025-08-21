@@ -27,7 +27,7 @@ The project focuses on learning Linux, improving IT administration skills, and b
 - **External Disk Mounting**
   - Configured an external USB drive for persistent data storage.
 
-- **System Logs
+- **System Logs**
 Configured and learned how to use **systemd’s journal (journalctl)** for analyzing logs and troubleshooting.  
 Examples include checking reboots, service errors, and system warnings:
 
