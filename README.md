@@ -24,12 +24,15 @@ The project focuses on learning Linux, improving IT administration skills, and b
 - **Monitoring**  
   - Netdata for real-time system metrics  
 
-- **Web Hosting (planned)**  
-  - Nginx setup for serving websites and apps
-
 - **External Disk Mounting**
   - Configured an external USB drive for persistent data storage.
-    
+
+- **System Logs
+Configured and learned how to use **systemd’s journal (journalctl)** for analyzing logs and troubleshooting.  
+Examples include checking reboots, service errors, and system warnings:
+
+- **Web Hosting (planned)**  
+  - Nginx setup for serving websites and apps
 
 ---
 
