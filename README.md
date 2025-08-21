@@ -27,9 +27,8 @@ The project focuses on learning Linux, improving IT administration skills, and b
 - **External Disk Mounting**
   - Configured an external USB drive for persistent data storage.
 
-- **System Logs**
-Configured and learned how to use **systemd’s journal (journalctl)** for analyzing logs and troubleshooting.  
-Examples include checking reboots, service errors, and system warnings:
+- **Configured system logs**
+  - monitoring with `journalctl` for troubleshooting and service tracking
 
 - **Web Hosting (planned)**  
   - Nginx setup for serving websites and apps
