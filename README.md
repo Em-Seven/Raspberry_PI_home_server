@@ -16,6 +16,7 @@ The project focuses on learning Linux, improving IT administration skills, and b
 - **System Maintenance**  
   - Automatic security updates with email notifications  
   - Custom hostname  
+  - monitoring with journalctl for troubleshooting and service tracking
 
 - **File Management**  
   - SFTP access  
@@ -26,9 +27,6 @@ The project focuses on learning Linux, improving IT administration skills, and b
 
 - **External Disk Mounting**
   - Configured an external USB drive for persistent data storage.
-
-- **Configured system logs**
-  - monitoring with journalctl for troubleshooting and service tracking
 
 - **Web Hosting (planned)**  
   - Nginx setup for serving websites and apps
