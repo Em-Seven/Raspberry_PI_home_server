@@ -8,7 +8,7 @@ The project focuses on learning Linux, improving IT administration skills, and b
 ## Features Implemented
 - **SSH Hardening**  
   - Configured SSH keys for authentication
-    -[etc⁄ssh⁄sshd_config.md](Configs/etc⁄ssh⁄sshd_config.md)
+    -[sshd_config.md](Configs/sshd_config.md)
   - Disabled root login  
   - Changed default port  
   - Fail2Ban + UFW firewall rules
