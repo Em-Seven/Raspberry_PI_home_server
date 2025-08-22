@@ -20,7 +20,8 @@ The project focuses on learning Linux, improving IT administration skills, and b
   - Automatic security updates with email notifications
     - [unattended-upgrades.md](Configs/unattended-upgrades.md)
   - Custom hostname  
-  - monitoring with journalctl for troubleshooting and service tracking
+  - Monitoring with journalctl for system logs, troubleshooting, and service tracking
+
 
 - **File Management**  
   - SFTP access  
@@ -32,7 +33,9 @@ The project focuses on learning Linux, improving IT administration skills, and b
      - [Netdata.png](Assets/Netdata.png)
 
 - **Storage & Mounting**
-  - Configured an external USB drive for persistent data storage.
+  - Configured an external USB drive for persistent data storage  
+    - Mounted via /etc/fstab for auto-mount at boot
+
 
 - **Web Hosting (planned)**  
   - Nginx setup for serving websites and apps
