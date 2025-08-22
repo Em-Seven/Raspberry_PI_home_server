@@ -1,6 +1,6 @@
 # Raspberry Pi Home Server Project
 
-This repository documents my personal Raspberry Pi home server setup and the configurations I used to build it.  
+This repository documents my personal Raspberry Pi home server setup and the configurations I used to build it. 
 The project focuses on learning Linux, improving IT administration skills, and building a secure and functional server environment.
 
 ---
