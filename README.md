@@ -11,7 +11,7 @@ The project focuses on learning Linux, improving IT administration skills, and b
   - Disabled root login  
   - Changed default port  
   - Fail2Ban + UFW firewall rules
-     [Fail2Ban_jail.local.md](Configs/Fail2Ban_jail.local.md)
+    [Fail2Ban_jail.local.md](Configs/Fail2Ban_jail.local.md)
   - Remote access via Tailscale  
 
 - **System Maintenance**  
