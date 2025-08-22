@@ -8,7 +8,7 @@ The project focuses on learning Linux, improving IT administration skills, and b
 ## Features Implemented
 - **SSH Hardening**  
   - Configured SSH keys for authentication
-    -[sshd_config.md](Configs/sshd_config.md)
+    - [sshd_config.md](Configs/sshd_config.md)
   - Disabled root login  
   - Changed default port  
   - Fail2Ban + UFW firewall rules
@@ -24,10 +24,12 @@ The project focuses on learning Linux, improving IT administration skills, and b
 
 - **File Management**  
   - SFTP access  
-  - File Browser web application  
+  - File Browser web application
+      - [Web_file_browser.png](Assets/Web_file_browser.png)
 
 - **Monitoring**  
-  - Netdata for real-time system metrics  
+  - Netdata for real-time system metrics
+      - [Netdata.png ](Assets/netdata.png)
 
 - **Storage & Mounting**
   - Configured an external USB drive for persistent data storage.
@@ -48,6 +50,7 @@ For detailed step-by-step progress and notes, see:
 
 ---
 
+
 ## Future Plans
 - Deploy personal website with **Nginx**  
 - Host lightweight services (e.g., wiki, dashboard)  
@@ -56,5 +59,19 @@ For detailed step-by-step progress and notes, see:
 ---
 
 ## Languages
--  English  
+-  English
+
+---
+
+## Configuration Files
+
+The configs/ directory contains **example versions** of the configuration files used in this project.  
+
+- All sensitive information (e.g., IP addresses, credentials, email accounts) has been **sanitized**.  
+- Placeholders are included so that anyone reviewing the repository can **understand the changes** made.  
+- These files are provided for **documentation and reproducibility** purposes, not for direct deployment.  
+
+The actual production-ready configurations are stored securely and are **not part of this repository**.
+
+---
   
