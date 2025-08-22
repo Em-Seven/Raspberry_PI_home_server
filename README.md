@@ -29,7 +29,7 @@ The project focuses on learning Linux, improving IT administration skills, and b
 
 - **Monitoring**  
   - Netdata for real-time system metrics
-      - [Netdata.png ](Assets/netdata.png)
+      - [Netdata.png](Assets/netdata.png)
 
 - **Storage & Mounting**
   - Configured an external USB drive for persistent data storage.
