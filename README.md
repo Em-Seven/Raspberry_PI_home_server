@@ -10,7 +10,8 @@ The project focuses on learning Linux, improving IT administration skills, and b
   - Configured SSH keys for authentication  
   - Disabled root login  
   - Changed default port  
-  - Fail2Ban + UFW firewall rules  
+  - Fail2Ban + UFW firewall rules
+     [Fail2Ban jail.local.md](Configs/Fail2Ban jail.local.md)
   - Remote access via Tailscale  
 
 - **System Maintenance**  
