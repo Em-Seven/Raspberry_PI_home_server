@@ -77,4 +77,15 @@ The configs/ directory contains **example versions** of the configuration files 
 The actual production-ready configurations are stored securely and are **not part of this repository**.
 
 ---
-  
+
+![Linux](https://img.shields.io/badge/OS-Linux-blue?logo=linux&logoColor=white)
+![Raspberry Pi](https://img.shields.io/badge/Hardware-Raspberry%20Pi-red?logo=raspberrypi&logoColor=white)
+![Security](https://img.shields.io/badge/Focus-Security-green?logo=datadog&logoColor=white)
+![Automation](https://img.shields.io/badge/Focus-Automation-yellow?logo=gnubash&logoColor=white)
+![Monitoring](https://img.shields.io/badge/Focus-Monitoring-orange?logo=prometheus&logoColor=white)
+![Server](https://img.shields.io/badge/Role-Server-grey?logo=serverfault&logoColor=white)
+![DevOps Basics](https://img.shields.io/badge/Path-DevOps%20Basics-blueviolet?logo=githubactions&logoColor=white)
+
+
+
+
