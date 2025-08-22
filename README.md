@@ -7,16 +7,18 @@ The project focuses on learning Linux, improving IT administration skills, and b
 
 ## Features Implemented
 - **SSH Hardening**  
-  - Configured SSH keys for authentication  
+  - Configured SSH keys for authentication
+    -[etc⁄ssh⁄sshd_config.md](Configs/etc⁄ssh⁄sshd_config.md)
   - Disabled root login  
   - Changed default port  
   - Fail2Ban + UFW firewall rules
-    
-      [Fail2Ban_jail.local.md](Configs/Fail2Ban_jail.local.md)
+    - [Fail2Ban_jail.local.md](Configs/Fail2Ban_jail.local.md)
+    - [UFW_rules.md](Configs/UFW_rules.md)
   - Remote access via Tailscale  
 
 - **System Maintenance**  
-  - Automatic security updates with email notifications  
+  - Automatic security updates with email notifications
+    - [unattended-upgrades.md](Configs/unattended-upgrades.md)
   - Custom hostname  
   - monitoring with journalctl for troubleshooting and service tracking
 
