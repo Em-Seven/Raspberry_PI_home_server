@@ -25,7 +25,7 @@ The project focuses on learning Linux, improving IT administration skills, and b
 - **Monitoring**  
   - Netdata for real-time system metrics  
 
-- **External Disk Mounting**
+- **Storage & Mounting**
   - Configured an external USB drive for persistent data storage.
 
 - **Web Hosting (planned)**  
