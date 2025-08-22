@@ -34,7 +34,7 @@ The project focuses on learning Linux, improving IT administration skills, and b
 
 - **Storage & Mounting**
   - Configured an external USB drive for persistent data storage  
-    - Mounted via /etc/fstab for auto-mount at boot
+    
 
 
 - **Web Hosting (planned)**  
