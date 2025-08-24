@@ -40,8 +40,8 @@ This file documents the steps, configurations, and services set up on my Raspber
 ---
 
 ## Storage & Mounting
--The disk is automatically mounted at boot using /etc/fstab.
-- **Backups**  
+- The disk is automatically mounted at boot using /etc/fstab.
+- Backups:  
   - Automated daily backups using rsync  
   - Covers:
     - Home directories  
