@@ -52,11 +52,28 @@ This file documents the steps, configurations, and services set up on my Raspber
 
 ---
 
+## Web Hosting & Application Deployment
+- **Nginx Web Server**
+  - Configured Nginx as the primary web server.
+  - Set up a **Server Block** to serve a Laravel application from the `/var/www` directory.
+  - Implemented an **Nginx reverse proxy** for Netdata, allowing access through a subdomain.
+- **Laravel Framework Integration**
+  - Installed PHP, Composer, and the Laravel framework.
+  - Deployed the initial **"Under Construction"** landing page.
+  - Understood core concepts of the **MVC architecture** (Model, View, Controller), routes, and the Blade templating engine.
+- **Secure Public Access with Cloudflare Tunnel**
+  - Deployed a **Cloudflare Tunnel** to securely expose the Nginx web server to the internet without opening any firewall ports.
+  - This provides automated HTTPS encryption and DDoS protection.
+
+---
+
 ## Notes
 - All services are configured to run on boot.
 - Configurations have been tested and verified.
-- Further improvements planned:  
-  - Nginx reverse proxy setup for secure HTTPS access.  
-  - Backups of configurations and data.
+- Future Plans
+	- Deploy the full website: Replace the "Under Construction" page with a full, functional website.
+	- Database integration: Set up a database (e.g., SQLite or MySQL) and connect it to the Laravel application.
+	- User authentication: Implement a user login system to secure parts of the website.
+	- Further automation: Create a script for automatic updates of the Laravel application.
 
 ---
