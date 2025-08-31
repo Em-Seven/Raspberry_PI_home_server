@@ -45,7 +45,7 @@ The project focuses on learning Linux, improving IT administration skills, and b
     - Custom route configuration
     - MVC architecture understanding (Model, View, Controller)
   - **Live Site**: 
-	 		- [The 7pi Laboratory](http://7pi-labs.tech)
+	 		 [The 7pi Laboratory](http://7pi-labs.tech)
   - **DNS & Traffic Management**
     - Cloudflare Tunnel setup for secure, public access
   - **Laravel Maintenance**
