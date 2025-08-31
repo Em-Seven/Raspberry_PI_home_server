@@ -55,7 +55,7 @@ This file documents the steps, configurations, and services set up on my Raspber
 ## Web Hosting & Application Deployment
 - **Nginx Web Server**
   - Configured Nginx as the primary web server.
-  - Set up a **Server Block** to serve a Laravel application from the `/var/www` directory.
+  - Set up a **Server Block** to serve a Laravel application from the /var/www directory.
   - Implemented an **Nginx reverse proxy** for Netdata, allowing access through a subdomain.
 - **Laravel Framework Integration**
   - Installed PHP, Composer, and the Laravel framework.
