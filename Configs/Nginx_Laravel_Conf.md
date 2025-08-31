@@ -1,7 +1,7 @@
 nginx
 server {
     listen 80;
-    server_name your_domain.com; # Replace with your domain name
+    server_name your_domain.com; 
     root /var/www/my_laravel_app/public;
 
     add_header X-Frame-Options "SAMEORIGIN";
@@ -21,7 +21,7 @@ server {
     error_page 404 /index.php;
 
     location ~ \.php$ {
-        fastcgi_pass unix:/var/run/php/php8.2-fpm.sock; # Check your PHP version
+        fastcgi_pass unix:/var/run/ph/php8.2-fpm.sock; 
         fastcgi_index index.php;
         fastcgi_param SCRIPT_FILENAME $realpath_root$fastcgi_script_name;
         include fastcgi_params;
