@@ -1,4 +1,4 @@
-# Raspberry Pi Home Server Project
+lol# Raspberry Pi Home Server Project
 
 This repository documents my personal Raspberry Pi home server setup and the configurations I used to build it. 
 The project focuses on learning Linux, improving IT administration skills, and building a secure and functional server environment.
@@ -44,10 +44,12 @@ The project focuses on learning Linux, improving IT administration skills, and b
     - First page deployment
     - Custom route configuration
     - MVC architecture understanding (Model, View, Controller)
+  - **Live Site**: [The 7pi Laboratory](http://7pi-labs.tech) 
   - **DNS & Traffic Management**
     - Cloudflare Tunnel setup for secure, public access
   - **Laravel Maintenance**
-    - composer.json & composer.lock for dependency management
+    - `composer.json` & `composer.lock` for dependency management
+
 
 
 ---
