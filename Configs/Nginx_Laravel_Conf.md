@@ -1,4 +1,4 @@
-nginx
+{nginx
 server {
     listen 80;
     server_name your_domain.com; 
