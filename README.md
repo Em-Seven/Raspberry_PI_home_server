@@ -39,8 +39,16 @@ The project focuses on learning Linux, improving IT administration skills, and b
     
 
 
-- **Web Hosting (planned)**  
-  - Nginx setup for serving websites and apps
+- **Web Hosting** - Nginx setup for serving websites and apps
+  - **Laravel Framework Integration**
+    - First page deployment
+    - Custom route configuration
+    - MVC architecture understanding (Model, View, Controller)
+  - **DNS & Traffic Management**
+    - Cloudflare Tunnel setup for secure, public access
+  - **Laravel Maintenance**
+    - `composer.json` & `composer.lock` for dependency management
+
 
 ---
 
@@ -57,7 +65,6 @@ For detailed step-by-step progress and notes, see:
 
 
 ## Future Plans
-- Deploy personal website with **Nginx**  
 - Host lightweight services (e.g., wiki, dashboard)  
 - Expand monitoring and backups  
 
