@@ -1,4 +1,4 @@
-{nginx
+# Nginx Configuration for Laravel
 server {
     listen 80;
     server_name your_domain.com; 
@@ -21,7 +21,7 @@ server {
     error_page 404 /index.php;
 
     location ~ \.php$ {
-        fastcgi_pass unix:/var/run/ph/php8.2-fpm.sock; 
+        fastcgi_pass unix:/var/run/php/php8.2-fpm.sock; 
         fastcgi_index index.php;
         fastcgi_param SCRIPT_FILENAME $realpath_root$fastcgi_script_name;
         include fastcgi_params;
