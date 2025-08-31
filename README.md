@@ -47,7 +47,7 @@ The project focuses on learning Linux, improving IT administration skills, and b
   - **DNS & Traffic Management**
     - Cloudflare Tunnel setup for secure, public access
   - **Laravel Maintenance**
-    - `composer.json` & `composer.lock` for dependency management
+    - composer.json & composer.lock for dependency management
 
 
 ---
