@@ -1,5 +1,7 @@
 # Nginx Configuration for Laravel
-'''server {
+
+server 
+{
     listen 80;
     server_name your_domain.com; 
     root /var/www/my_laravel_app/public;
@@ -30,4 +32,4 @@
     location ~ /\.(?!well-known).* {
         deny all;
     }
-}'''
+}
