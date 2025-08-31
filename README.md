@@ -40,7 +40,7 @@ The project focuses on learning Linux, improving IT administration skills, and b
 
 
 - **Web Hosting** - Nginx setup for serving websites and apps
-  - [Nginx_Laravel_conf.md](Configs/Nginx_Laravel_conf.md)
+  - [Nginx_Laravel_Conf.md](Configs/Nginx_Laravel_Conf.md)
   - **Laravel Framework Integration**
     - First page deployment
     - Custom route configuration
