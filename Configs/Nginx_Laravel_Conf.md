@@ -30,4 +30,4 @@
     location ~ /\.(?!well-known).* {
         deny all;
     }
-}
+}'''
