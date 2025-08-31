@@ -62,7 +62,7 @@ The goal of this project is to use the Raspberry Pi as a Linux-based environment
 
 ## Project Log
 For detailed step-by-step progress and notes, see:  
-📄 [PROJECT_LOG.md](./PROJECT_LOG.md)
+- [PROJECT_LOG.md](./PROJECT_LOG.md)
 
 ---
 
