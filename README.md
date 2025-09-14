@@ -45,8 +45,7 @@ The project focuses on learning Linux, improving IT administration skills, and b
     - First page deployment
     - Custom route configuration
     - MVC architecture understanding (Model, View, Controller)
-  - **Live Site**: 
-	 		 [The 7pi Laboratory](http://7pi-labs.tech)
+
   - **DNS & Traffic Management**
     - Cloudflare Tunnel setup for secure, public access
   - **Laravel Maintenance**
@@ -54,6 +53,11 @@ The project focuses on learning Linux, improving IT administration skills, and b
 
 
 - **7pi Labs**
+
+   - **Live Site**: 
+	 		 [The 7pi Laboratory](http://7pi-labs.tech)
+
+	- [7pi-labs.png](Assets/Print_Home_Page.png)
 
 	**Description**
 	**7pi Labs** is the first version of a personal project website built with **Laravel**.  
