@@ -72,6 +72,7 @@ It was developed entirely for **learning and practice purposes**, using **Blade 
 ---
 
 ## Project Log
+  - [Project_Log](/PROJECT_LOG.md)
 
 ### Raspberry Pi Home Server
 - SSH Hardening: keys, fail2ban, ufw
