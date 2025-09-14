@@ -53,6 +53,41 @@ The project focuses on learning Linux, improving IT administration skills, and b
     - composer.json & composer.lock for dependency management
 
 
+- **7pi Labs**
+
+	**Description**
+	**7pi Labs** is the first version of a personal project website built with **Laravel**.  
+	It was developed entirely for **learning and practice purposes**, using **Blade templates**, **Vim**, and an **SQLite database**.  
+
+- This project features:  
+	- Responsive design with **Bootstrap 5 (Flatly theme)**  
+	- Hero section, navbar, and footer layout  
+	- Comment system (display & save comments)  
+	- Forms and cards styled for readability  
+
+ 	**This is an early-stage version built purely for learning.**
+
+- **Features**
+	- Display the latest comments  
+	- Add new comments through a simple form  
+	- Fully responsive on desktop and mobile  
+	- Clean and modular Laravel layout  
+
+- **Tech Stack**
+	- **Backend:** Laravel 12.25.0, PHP 8.3.6  
+	- **Database:** SQLite  
+	- **Frontend:** Bootstrap 5, Google Fonts (Inter)  
+
+- **Notes**
+	- All data in the database is for **practice only**  
+	- Built entirely in **Vim** for hands-on learning  
+	- This is a **first release**, improvements are ongoing  
+
+- **License**
+	This project is for educational purposes only.
+
+
+
 
 ---
 
