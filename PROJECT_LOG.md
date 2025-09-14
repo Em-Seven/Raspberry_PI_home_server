@@ -52,18 +52,24 @@ This file documents the steps, configurations, and services set up on my Raspber
 
 ---
 
-## Web Hosting & Application Deployment
-- **Nginx Web Server**
-  - Configured Nginx as the primary web server.
-  - Set up a **Server Block** to serve a Laravel application from the /var/www directory.
-  - Implemented an **Nginx reverse proxy** for Netdata, allowing access through a subdomain.
-- **Laravel Framework Integration**
-  - Installed PHP, Composer, and the Laravel framework.
-  - Deployed the initial **"Under Construction"** landing page.
-  - Understood core concepts of the **MVC architecture** (Model, View, Controller), routes, and the Blade templating engine.
-- **Secure Public Access with Cloudflare Tunnel**
-  - Deployed a **Cloudflare Tunnel** to securely expose the Nginx web server to the internet without opening any firewall ports.
-  - This provides automated HTTPS encryption and DDoS protection.
+### Web Hosting & Application Deployment
+
+#### Nginx Web Server
+- Configured Nginx as the primary web server.
+- Set up a **Server Block** to serve a Laravel application from the `/var/www` directory.
+- Implemented an Nginx reverse proxy for Netdata, allowing access through a subdomain.
+
+#### Laravel Framework Integration
+- Installed **PHP**, **Composer**, and the **Laravel framework**.
+- Deployed the initial **"Under Construction"** landing page.
+- Practiced and understood core concepts of the **MVC architecture** (Model, View, Controller), routes, and the **Blade templating engine**.
+- Integrated initial **comment system** using Blade templates and SQLite database for practice.
+- Set up basic **routes** and **layouts** to structure the first version of the site.
+- Learned hands-on Laravel deployment and local web hosting using Nginx.
+
+#### Secure Public Access with Cloudflare Tunnel
+- Deployed a **Cloudflare Tunnel** to securely expose the Nginx web server to the internet without opening any firewall ports.
+- Provides automated **HTTPS encryption** and **DDoS protection**.
 
 ---
 
