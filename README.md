@@ -120,9 +120,3 @@ These files are for **documentation and reproducibility**, not for direct deploy
 ## License
 This project is for **educational purposes only**.
 
-this is a test i made for my self
-blah blah blah
-tarzan
-aglaia
-adsda
-sdsdsds
