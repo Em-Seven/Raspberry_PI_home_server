@@ -71,6 +71,39 @@ This file documents the steps, configurations, and services set up on my Raspber
 - Deployed a **Cloudflare Tunnel** to securely expose the Nginx web server to the internet without opening any firewall ports.
 - Provides automated **HTTPS encryption** and **DDoS protection**.
 
+### Docker & Laravel Setup
+- Installed Docker and Docker Compose on Raspberry Pi  
+  - `sudo apt update && sudo apt install docker.io docker-compose -y`  
+  - Enabled Docker service: `sudo systemctl enable --now docker`  
+  - Added user to Docker group: `sudo usermod -aG docker $USER`  
+
+- Containers used:  
+  - **laravel_app** → PHP + Laravel  
+  - **laravel_nginx** → Nginx web server  
+
+- Volumes:  
+  - `.:/var/www/my_laravel_app` → live project files  
+  - `/mnt/usb:/mnt/usb` → persistent storage for backups  
+
+- Start containers: `docker compose up -d --build`  
+- Useful commands:  
+  - `docker compose ps` → list running containers  
+  - `docker compose logs -f` → tail logs  
+  - `docker compose exec app bash` → enter Laravel container  
+  - `docker compose exec nginx bash` → enter Nginx container  
+  - `docker compose down` → stop containers  
+
+### Backup Workflow
+- Backup script: `/var/www/my_laravel_app/scripts/backup.sh`  
+- Backup destination: `/mnt/usb/laravel_backups`  
+- Run manually inside container: `bash /var/www/my_laravel_app/scripts/backup.sh`  
+- Automate with cron:  
+  - `0 3 * * * /var/www/my_laravel_app/scripts/backup.sh`  
+- Notes:  
+  - All Laravel files visible on host via volume mounts  
+  - Containers are ephemeral, but volumes persist data  
+  - Install tools inside container if missing (e.g., `vim`, `rsync`) in Dockerfile or manually
+
 ---
 
 ## Notes
