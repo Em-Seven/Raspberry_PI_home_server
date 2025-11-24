@@ -38,6 +38,19 @@ The project focuses on learning Linux, improving IT administration skills, and b
   - MVC architecture (Model, View, Controller)
 - Cloudflare Tunnel for public access
 
+### Docker & Laravel Setup
+- Installed Docker & Docker Compose on Raspberry Pi  
+- Created Laravel + Nginx containers  
+- Mounted project folder and USB drive for persistent storage  
+- Containers can be started with docker compose up -d
+- Useful commands: enter container (docker compose exec app bash), check logs (docker compose logs -f)
+
+### Backup
+- Backup script stores Laravel files to /mnt/usb/laravel_backups  
+- Can run manually or via cron for automated daily backups  
+- Persistent storage ensures files remain even if container is recreated
+
+
 ---
 
 ## 7pi Labs – Laravel Practice Project
