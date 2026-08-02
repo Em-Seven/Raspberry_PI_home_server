@@ -55,7 +55,7 @@ The project focuses on learning Linux, improving IT administration skills, and b
 
 ## 7pi Labs – Laravel Practice Project
 
-**Live Site:** [7pi Laboratory](http://7pi-labs.tech)  
+**Live Site:** [7pi Laboratory](http://7pi-labs.com)  
 ![7pi-labs.png](Assets/Print_Home_Page.png)
 
 **Description:**  
